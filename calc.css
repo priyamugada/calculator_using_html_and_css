@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    border:0px;
+    box-sizing: border-box;
+}
+.cal{
+   
+   width:320px;
+   margin:30px;
+   border :3px rgb(27,27,27);
+   border-radius: 10px;
+   background-color: rgba(rgb(124, 119, 119), rgb(136, 139, 136), rgb(111, 111, 116), 0.5)
+   text-align: center;
+   border: 3px solid rgba(0,0,0, 0.5);
+}
+.cal h3{
+    background-color: black;
+    color:antiquewhite;
+}
+.key {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: darkgray;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.cal input{
+    width:100%;
+    border:3px solid rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+    font-size: 2em;
+    text-align: right;
+}
+.key button{
+    font-size: 2em;
+    border:3px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.key button:hover{
+    background-color: rgb(87, 87, 79);
+}
+.key button:active{
+    background-color: darkgrey;
+    border-radius: 5px;
+}
